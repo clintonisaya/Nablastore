@@ -1,0 +1,1 @@
+web: gunicorn nablastore.wsgi --log-file -
