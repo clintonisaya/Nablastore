@@ -1,1 +1,1 @@
-web: python setup.py install && gunicorn nablastore.wsgi
+web: gunicorn nablastore.wsgi
